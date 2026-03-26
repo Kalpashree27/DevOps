@@ -1,0 +1,7 @@
+Enterprise_ID,Enterprise_Name,Industry,Employees,Revenue_2024,Expenses_2024,Profit_2024
+1,Alpha Pvt Ltd,Manufacturing,120,5000000,4200000,800000
+2,Beta Solutions,IT Services,85,3200000,2100000,1100000
+3,Gamma Traders,Retail,60,2100000,1800000,300000
+4,Delta Foods,Food Processing,150,6100000,5000000,1100000
+5,Epsilon Logistics,Transport,95,4000000,3500000,500000
+,Total,,510,20400000,16600000,3800000

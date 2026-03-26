@@ -1,0 +1,104 @@
+1.Swap two numbers without usind temporary variable
+#include <iostream>
+using namespace std;
+int main()
+{
+int a, b;
+cout<<"Enter the two numbers"<<endl;
+cin>>a>>b;
+a = a+b;
+b = a-b:
+a = a-b;
+cout<<"A after swaping:"<<a<<endl;
+cout<<"B after swaping:"<<b<<endl;
+}
+
+2 C++ Factorial
+#include <iostream>
+using namespace std;
+
+int fib(int n) 
+{
+if (n <= 1)
+return n;
+return fib(n - 1) + fib(n - 2);
+}
+
+int main() {
+int n = 5; 
+cout << "Fibonacci number at position " << n << " is " << fib(n);
+return 0;
+}
+
+3 Factorial Number
+#include <iostream>
+using namespace std;
+
+int factorial(int n)
+{
+       return ((n == 1 || n == 0) ? 1 : 
+             n * factorial(n - 1));
+}
+
+int main()
+{
+    int num ;
+    cout<<"Enter the number to find factorial"<<endl;
+    cin>>num;
+    cout << "Factorial of " << num << " is "<< factorial(num);
+    return 0;
+}
+
+4 Eligibility for voting
+#include <iostream>
+using namespace std;
+
+int main() {
+    int age;
+
+    cout << "Enter your age: ";
+    cin>>age;
+
+       
+    if (age < 18)
+    {
+        cout << "You are NOT eligible to vote. Minimum age is 18.\n";
+    }
+     else 
+    {
+        cout << Your eligible to vote";
+    }
+
+    return 0;
+}
+
+5.Multiplication table
+include <iostream>
+using namespace std;
+
+int main() {
+int number;
+
+cout << "Enter a whole number: ";
+cin >> number;
+
+for (int i = 1; i <= 10; ++i) {
+cout << number << " * " << i << " = " << number * i << endl;
+}
+
+return 0;
+}
+
+1.
+using System;
+
+class Practice
+{
+    static void Main()
+    {
+        Console.WriteLine("Enter your name");
+        String name = Console.ReadLine();
+        Console.WriteLine(name);
+
+    }
+}
